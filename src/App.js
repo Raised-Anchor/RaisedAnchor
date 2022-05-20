@@ -5,7 +5,7 @@ import { ContactCard } from "./component/ContactCard";
 function App() {
   return (
     <>
-    alert(myvar.a)
+    {alert(myvar.a)}
     <div className="App">
       {/* <header className="App-header"> */}
       <img src={logo} className="" alt="Raised Anchor" />
