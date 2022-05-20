@@ -3,9 +3,9 @@ import "./App.css";
 import { ContactCard } from "./component/ContactCard";
 
 function App() {
+
   return (
     <>
-    {alert(myvar.a)}
     <div className="App">
       {/* <header className="App-header"> */}
       <img src={logo} className="" alt="Raised Anchor" />
