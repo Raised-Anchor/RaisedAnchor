@@ -27,7 +27,7 @@ steps:
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'raisedanchor', '--image', 'gcr.io/$PROJECT_ID/gcloud', '--region', 'central1']
+  args: ['run', 'deploy', 'raisedanchor', '--image', 'gcr.io/$PROJECT_ID/gcloud', '--region', 'us-central1']
 images:
 - gcr.io/$PROJECT_ID/gcloud
 timeout: 2400s
