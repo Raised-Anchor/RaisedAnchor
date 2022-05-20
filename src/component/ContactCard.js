@@ -1,3 +1,4 @@
+import React from "react";
 import { SiGmail } from "react-icons/si";
 
 export const ContactCard = ({ contact }) => {
